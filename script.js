@@ -7,6 +7,8 @@ class VolumeSlider {
     this.shape = document.getElementById('circle-mask-shape');
     this.input = document.getElementById('volume-input');
 
+    console.log(this.input);
+
     this._lock = false;
     this._charging = false;
     this._charge = 0;
